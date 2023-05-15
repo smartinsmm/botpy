@@ -322,4 +322,4 @@ async def inventaire(ctx):
 #####################Shop fin#################################
 
 
-client.run("MTA5MTMzNDI1Njk2MzM3MTAyOQ.GLHUzl.3_eedfqTcnMJHuxxqfEU_bogVe7rplbeSzwYA0")
+client.run("je suis trop con")
