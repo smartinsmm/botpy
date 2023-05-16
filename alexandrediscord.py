@@ -121,7 +121,7 @@ async def on_member_join(member):
         
 @client.event
 async def on_message(message):
-    print("test")
+    
     
     if message.author == client.user:
         return
@@ -135,11 +135,11 @@ async def on_message(message):
         User = message.author.name
         message_content = message.content[1:]
         test = [User, message_content]
-        await message.channel.send(User)
+       
         Classeur.all_command_user(test)
         last_c = Classeur.get_all()
         output = "\n".join(" ".join(map(str, row)) for row in last_c)
-        await message.channel.send(output)
+        
 ##################### opt1#################################   
     if message.content.startswith('<rappel'):
         await handle_reminder(message)
